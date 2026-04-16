@@ -1,4 +1,4 @@
-# detekta-frontend
+# Detekta-frontend
 
 The React SPA (Single-Page Application) for **Detekta** — an automated security audit platform. This interface lets users create and monitor security audits, watch live scan logs in a real-time terminal, and explore AI-generated vulnerability reports for web applications, REST APIs, mobile apps (APK/IPA), and backend code.
 
