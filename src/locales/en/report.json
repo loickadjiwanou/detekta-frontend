@@ -1,0 +1,62 @@
+{
+  "title": "Security Report",
+  "score": "Security Score",
+  "riskLevel": "Risk Level",
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "info": "Info",
+    "secure": "Secure"
+  },
+  "sections": {
+    "summary": "Executive Summary",
+    "technical": "Technical Summary",
+    "findings": "Findings",
+    "aiAnalysis": "AI Analysis",
+    "recommendations": "Recommendations",
+    "actionPlan": "Action Plan"
+  },
+  "finding": {
+    "category": "Category",
+    "affected": "Affected Component",
+    "evidence": "Evidence",
+    "cvss": "CVSS Score",
+    "cve": "CVE IDs",
+    "recommendation": "Recommendation",
+    "codeFix": "Code Fix",
+    "references": "References"
+  },
+  "actionPlan": {
+    "priority": "Priority Actions",
+    "quickWins": "Quick Wins",
+    "longTerm": "Long-term Recommendations"
+  },
+  "download": {
+    "pdf": "Download PDF",
+    "mobsf": "Download MobSF Report",
+    "html": "Download HTML"
+  },
+  "metadata": {
+    "target": "Target",
+    "type": "Audit Type",
+    "duration": "Duration",
+    "tools": "Tools Used",
+    "generated": "Generated",
+    "apiMode": "AI Mode"
+  },
+  "noFindings": "No vulnerabilities found",
+  "noFindingsDesc": "Great job! No security issues were detected.",
+  "scoring": {
+    "modalTitle": "Understanding your score",
+    "intro": "The score is calculated using a capped deductive model. Each vulnerability deducts points, but the impact of each category is limited to ensure that an accumulation of minor issues doesn't mask the true security state.",
+    "table": {
+      "severity": "Severity",
+      "penalty": "Points Deducted",
+      "cap": "Max Cap"
+    },
+    "formula": "Score = 100 - (Sum of capped penalties)",
+    "note": "Note: A single Critical vulnerability can significantly lower the score, as it represents an immediate risk of intrusion."
+  }
+}

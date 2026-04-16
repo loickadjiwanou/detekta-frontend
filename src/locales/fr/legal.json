@@ -1,0 +1,77 @@
+{
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 10 Avril 2026",
+    "intro": "Chez Detekta, nous prenons la protection de vos données personnelles très au sérieux. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre plateforme d'audit de sécurité.",
+    "sections": [
+      {
+        "title": "1. Collecte des Données",
+        "content": "Nous collectons les informations nécessaires à la fourniture de nos services :",
+        "items": [
+          "Informations de compte : Nom, adresse email et préférences linguistiques.",
+          "Données d'audit : URLs des cibles, points d'entrée API, et fichiers d'application (APK, IPA).",
+          "Informations techniques : Adresses IP (pour la sécurité des scans), types de navigateur et logs système."
+        ]
+      },
+      {
+        "title": "2. Utilisation des Données",
+        "content": "Vos données sont utilisées exclusivement pour :",
+        "items": [
+          "Réaliser les audits de sécurité demandés.",
+          "Générer des rapports d'analyse via nos modèles d'IA (Claude AI).",
+          "Améliorer la pertinence de nos algorithmes de détection.",
+          "Assurer le support technique et la sécurité de votre compte."
+        ]
+      },
+      {
+        "title": "3. Traitement par l'Intelligence Artificielle",
+        "content": "Detekta utilise l'API Anthropic (Claude AI) pour analyser les résultats de scan. Vos données sont traitées de manière éphémère par l'IA et ne sont pas utilisées pour l'entraînement des modèles tiers conformément à nos accords de confidentialité avec nos fournisseurs."
+      },
+      {
+        "title": "4. Sécurité et Conservation",
+        "content": "Nous appliquons des mesures de sécurité rigoureuses :",
+        "items": [
+          "Chiffrement AES-256 pour les données au repos.",
+          "Suppression automatique des fichiers sources (APK/IPA) après la fin de l'audit.",
+          "Possibilité pour l'utilisateur de supprimer définitivement ses audits et rapports à tout moment."
+        ]
+      },
+      {
+        "title": "5. Vos Droits",
+        "content": "Conformément au RGPD et aux lois de protection des données, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données personnelles. Pour exercer ces droits, contactez-nous via notre formulaire de support."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 10 Avril 2026",
+    "intro": "L'utilisation de Detekta implique l'acceptation pleine et entière des présentes Conditions Générales d'Utilisation (CGU).",
+    "sections": [
+      {
+        "title": "1. Description du Service",
+        "content": "Detekta fournit des outils automatisés d'analyse de vulnérabilités pour les applications web, mobiles et les APIs. Le service inclut des scans de sécurité et des recommandations générées par IA."
+      },
+      {
+        "title": "2. Responsabilité de l'Utilisateur",
+        "content": "En utilisant Detekta, vous garantissez que :",
+        "items": [
+          "Vous disposez de l'autorisation explicite du propriétaire pour auditer la cible soumise.",
+          "Vous n'utiliserez pas le service à des fins malveillantes ou illégales.",
+          "Vous ne tenterez pas de saturer ou de compromettre les infrastructures de Detekta."
+        ]
+      },
+      {
+        "title": "3. Limitations de Garantie",
+        "content": "Bien que nous utilisions des technologies de pointe (OWASP Top 10, Claude AI), Detekta est un outil d'aide à la sécurité. Nous ne garantissons pas l'absence totale de vulnérabilités. Detekta ne peut être tenu responsable des dommages résultant d'une cyberattaque sur une application préalablement auditée."
+      },
+      {
+        "title": "4. Propriété Intellectuelle",
+        "content": "Tout le contenu de la plateforme Detekta (logiciel, design, algorithmes) est la propriété exclusive de Detekta. Les rapports générés appartiennent à l'utilisateur, sous réserve du respect de son abonnement."
+      },
+      {
+        "title": "5. Modification des Conditions",
+        "content": "Detekta se réserve le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des changements significatifs via leur tableau de bord."
+      }
+    ]
+  }
+}

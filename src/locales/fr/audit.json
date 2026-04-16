@@ -1,0 +1,137 @@
+{
+  "types": {
+    "web": "Application Web",
+    "mobile": "Application Mobile",
+    "backend": "Backend/Code",
+    "api": "API REST"
+  },
+  "typeDescriptions": {
+    "web": "Analysez les applications web pour détecter XSS, injections SQL, et plus.",
+    "mobile": "Analysez les fichiers APK/IPA pour les failles de sécurité mobile.",
+    "backend": "Examinez les dépôts de code pour les failles et mauvaises pratiques.",
+    "api": "Testez les API REST pour l'authentification, l'autorisation et les injections."
+  },
+  "steps": {
+    "type": "Type d'audit",
+    "target": "Cible & Config",
+    "apiKey": "Clé API"
+  },
+  "target": {
+    "url": "URL cible",
+    "urlPlaceholder": "https://exemple.com",
+    "apiEndpoint": "Point d'entrée API",
+    "apiPlaceholder": "https://api.exemple.com/v1",
+    "gitRepo": "Dépôt Git",
+    "gitPlaceholder": "https://github.com/user/repo",
+    "uploadFile": "Télécharger un fichier",
+    "dragDrop": "Glissez-déposez votre fichier APK/IPA ici",
+    "or": "ou",
+    "browse": "Parcourir",
+    "dropFile": "Déposez votre fichier ici",
+    "maxSize": "Formats supportés : APK, IPA, AAB • Taille max : 200 Mo",
+    "uploaded": "Fichier téléchargé avec succès !"
+  },
+  "config": {
+    "title": "Configuration",
+    "depth": "Profondeur du scan",
+    "quick": "Rapide",
+    "standard": "Standard",
+    "deep": "Approfondi",
+    "quickDesc": "Scan rapide, vérifications de base",
+    "standardDesc": "Scan équilibré, recommandé",
+    "deepDesc": "Scan complet, plus long",
+    "aiAnalysis": "Analyse IA",
+    "aiAnalysisDesc": "Utilisez Claude AI pour une analyse intelligente et des recommandations",
+    "reportLanguage": "Langue du rapport"
+  },
+  "apiKeySetup": {
+    "title": "Configuration de la clé API Claude",
+    "aiDisabledTitle": "Analyse IA désactivée",
+    "aiDisabledDesc": "Aucune IA ne sera utilisée lors de l'analyse car vous avez désactivé cette option à l'étape précédente.",
+    "ownKey": "Ma clé API",
+    "ownKeyDesc": "Utilisez votre propre clé API Anthropic. Facturé via votre compte Anthropic.",
+    "platformKey": "Clé plateforme",
+    "platformKeyDesc": "Utilisez la clé Detekta. Inclus dans votre plan avec frais d'utilisation.",
+    "enterKey": "Entrez votre clé API",
+    "keyPlaceholder": "sk-ant-...",
+    "getKey": "Obtenez votre clé sur console.anthropic.com",
+    "validateSave": "Valider et sauvegarder",
+    "currentKey": "Clé actuelle",
+    "usingOwn": "Utilisation de votre propre clé",
+    "usingPlatform": "Utilisation de la clé plateforme",
+    "noAiUsed": "Aucune IA utilisée"
+  },
+  "progress": {
+    "title": "Audit en cours",
+    "scanning": "Analyse...",
+    "analyzing": "Analyse IA...",
+    "generating": "Génération du rapport..."
+  },
+  "list": {
+    "title": "Mes audits",
+    "empty": "Aucun audit",
+    "emptyDesc": "Lancez votre premier audit de sécurité pour voir les résultats ici."
+  },
+  "new": {
+    "title": "Nouvel Audit",
+    "subtitle": "Configurez et lancez un audit de sécurité",
+    "auditName": "Nom de l'audit",
+    "auditNamePlaceholder": "ex: Scan API Production"
+  },
+  "delete": {
+    "confirm": "Êtes-vous sûr de vouloir supprimer cet audit ?",
+    "success": "Audit supprimé"
+  },
+  "dashboard": {
+    "welcomeHelp": "Voici un aperçu de vos audits de sécurité.",
+    "recentAudits": "Audits récents"
+  },
+  "archives": {
+    "title": "Archives",
+    "count": "{{count}} audit archivé",
+    "count_plural": "{{count}} audits archivés",
+    "warning": "Les audits archivés ne sont plus modifiables mais restent consultables.",
+    "empty": "Aucun audit archivé",
+    "emptyDesc": "Vos audits archivés apparaîtront ici pour référence historique."
+  },
+  "toasts": {
+    "loadFailed": "Échec du chargement des audits",
+    "restoreSuccess": "Audit restauré avec succès",
+    "restoreFailed": "Échec de la restauration de l'audit",
+    "deleteSuccess": "Audit supprimé définitivement",
+    "deleteFailed": "Échec de la suppression de l'audit",
+    "startSuccess": "Audit démarré !",
+    "startFailed": "Échec du démarrage de l'audit",
+    "uploadSuccess": "Fichier téléchargé avec succès",
+    "uploadFailed": "Échec du téléchargement du fichier",
+    "archiveSuccess": "Audit archivé avec succès",
+    "archiveFailed": "Échec de l'archivage de l'audit"
+  },
+  "validation": {
+    "selectType": "Veuillez sélectionner un type d'audit",
+    "enterTarget": "Veuillez entrer une cible",
+    "invalidFileType": "Type de fichier invalide. Autorisés : {{exts}}",
+    "fileTooLarge": "Fichier trop volumineux. La taille maximale est de 200 Mo."
+  },
+  "modals": {
+    "availableTestsTitle": "Tests de sécurité certifiés",
+    "availableTestsDesc": "Liste des contrôles de sécurité qui seront effectués lors de cet audit.",
+    "liveTestsTitle": "Détails de l'analyse en temps réel",
+    "liveTestsDesc": "Surveillance des tests de sécurité et des vérifications effectués sur la cible.",
+    "waitingTests": "En attente du début des tests...",
+    "depthNote": "Certains tests avancés (comme le scan de ports) ne sont disponibles qu'en modes Standard ou Approfondi.",
+    "seeAvailableTests": "Voir les tests disponibles"
+  },
+  "owasp": {
+    "A01": { "name": "A01:2025 - Contrôle d'accès défaillant", "desc": "Vérifie le listage de répertoires et l'exposition de fichiers sensibles (.git, .env)." },
+    "A02": { "name": "A02:2025 - Mauvaise configuration de sécurité", "desc": "Analyse les en-têtes de sécurité, les divulgations serveur et les ports ouverts à risque." },
+    "A03": { "name": "A03:2025 - Défaillances de la chaîne d'approvisionnement logicielle", "desc": "Recherche des bibliothèques frontend tierces obsolètes ou vulnérables." },
+    "A04": { "name": "A04:2025 - Défaillances cryptographiques", "desc": "Teste la configuration SSL/TLS, la validité du certificat et l'utilisation de HTTPS." },
+    "A05": { "name": "A05:2025 - Injection", "desc": "Teste les injections SQL et le Cross-Site Scripting (XSS) réfléchi." },
+    "A06": { "name": "A06:2025 - Conception non sécurisée", "desc": "Évalue les failles de conception, y compris les politiques CORS et les redirections." },
+    "A07": { "name": "A07:2025 - Échecs d'authentification", "desc": "Identifie les mécanismes d'authentification faibles et l'absence de limitation de débit." },
+    "A08": { "name": "A08:2025 - Défaillances de l'intégrité des logiciels et des données", "desc": "Vérifie l'intégrité des sous-ressources (SRI) pour les scripts externes." },
+    "A09": { "name": "A09:2025 - Échecs de journalisation et de surveillance", "desc": "Recherche des fichiers de logs et des points de diagnostic accessibles publiquement." },
+    "A10": { "name": "A10:2025 - Mauvaise gestion des conditions exceptionnelles", "desc": "Détecte les messages d'erreur verbeux et les fuites d'informations de débogage." }
+  }
+}

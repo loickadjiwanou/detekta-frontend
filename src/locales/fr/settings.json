@@ -1,0 +1,64 @@
+{
+  "title": "Paramètres",
+  "tabs": {
+    "profile": "Profil",
+    "apiKey": "Clé API",
+    "preferences": "Préférences"
+  },
+  "profile": {
+    "title": "Paramètres du profil",
+    "name": "Nom complet",
+    "email": "Email",
+    "avatar": "URL de l'avatar",
+    "language": "Langue préférée",
+    "save": "Enregistrer"
+  },
+  "apiKey": {
+    "title": "Clé API Claude",
+    "description": "Configurez comment l'analyse IA alimente vos audits.",
+    "optionA": {
+      "title": "Ma clé API",
+      "desc": "Utilisez votre propre clé API Anthropic. Vous payez Anthropic directement.",
+      "badge": "Votre quota Anthropic",
+      "note": "Accédez aux fonctionnalités via votre plan. Plus économique."
+    },
+    "optionB": {
+      "title": "Clé plateforme",
+      "desc": "Utilisez la clé Detekta. Facturé via votre plan Detekta.",
+      "badge": "Inclus dans le plan",
+      "note": "Aucun compte Anthropic requis. Tarifs plan plus élevés."
+    },
+    "addOwnKey": "Ajouter ma propre clé API",
+    "addOwnKeyDesc": "Configurez votre clé personnelle Claude API",
+    "enterKey": "Entrer la clé API",
+    "testKey": "Tester",
+    "saveKey": "Enregistrer",
+    "deleteKey": "Supprimer",
+    "keyStatus": "Statut de la clé",
+    "valid": "Valide",
+    "invalid": "Invalide",
+    "noKey": "Aucune clé configurée",
+    "encrypted": "Chiffrement AES-256",
+    "usingOwn": "Utilisation de votre propre clé",
+    "usingPlatform": "Utilisation de la clé plateforme",
+    "noAiUsed": "Aucune IA utilisée",
+    "saveSuccess": "Clé API enregistrée et validée",
+    "saveError": "Échec de l'enregistrement de la clé API",
+    "testValid": "La clé API est valide",
+    "testInvalid": "La clé API est invalide",
+    "deleteSuccess": "Clé API supprimée",
+    "deleteError": "Échec de la suppression de la clé API",
+    "saveProfileError": "Échec de l'enregistrement du profil",
+    "switch": "Passer à {{mode}}"
+  },
+  "preferences": {
+    "title": "Préférences",
+    "language": "Langue de l'interface",
+    "theme": "Thème",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "langDesc": "Sélectionnez votre langue d'interface préférée",
+    "themeDesc": "Basculez entre les thèmes clair et sombre",
+    "marketingDesc": "Recevoir les alertes de sécurité, les mises à jour et les offres."
+  }
+}

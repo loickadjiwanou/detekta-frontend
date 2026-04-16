@@ -1,0 +1,64 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "profile": "Profile",
+    "apiKey": "API Key",
+    "preferences": "Preferences"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "name": "Full Name",
+    "email": "Email",
+    "avatar": "Avatar URL",
+    "language": "Preferred Language",
+    "save": "Save Changes"
+  },
+  "apiKey": {
+    "title": "Claude API Key",
+    "description": "Configure how AI analysis is powered for your audits.",
+    "optionA": {
+      "title": "My API Key",
+      "desc": "Use your own Anthropic API key. You pay Anthropic directly for usage.",
+      "badge": "Your Anthropic quota",
+      "note": "Access Detekta features via your plan. More cost-effective."
+    },
+    "optionB": {
+      "title": "Platform Key",
+      "desc": "Use Detekta's API key. Usage is billed through your Detekta plan.",
+      "badge": "Included in plan",
+      "note": "No Anthropic account required. Higher plan rates."
+    },
+    "addOwnKey": "Add my own API key",
+    "addOwnKeyDesc": "Configure your personal Claude API key",
+    "enterKey": "Enter API Key",
+    "testKey": "Test Key",
+    "saveKey": "Save Key",
+    "deleteKey": "Delete Key",
+    "keyStatus": "Key Status",
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "noKey": "No key configured",
+    "encrypted": "AES-256 Encrypted",
+    "usingOwn": "Using your own key",
+    "usingPlatform": "Using platform key",
+    "noAiUsed": "No AI used",
+    "saveSuccess": "API key saved and validated",
+    "saveError": "Failed to save API key",
+    "testValid": "API key is valid",
+    "testInvalid": "API key is invalid",
+    "deleteSuccess": "API key deleted",
+    "deleteError": "Failed to delete API key",
+    "saveProfileError": "Failed to save profile",
+    "switch": "Switch to {{mode}}"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "language": "Interface Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "langDesc": "Select your preferred interface language",
+    "themeDesc": "Switch between light and dark themes",
+    "marketingDesc": "Receive security alerts, updates, and news."
+  }
+}

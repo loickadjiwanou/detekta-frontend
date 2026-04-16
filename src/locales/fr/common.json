@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "login": "Connexion",
+    "register": "Inscription",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "overview": "Vue d'ensemble",
+    "newAudit": "Nouvel Audit",
+    "myAudits": "Mes Audits",
+    "archives": "Archives",
+    "reports": "Rapports",
+    "settings": "Paramètres"
+  },
+  "buttons": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "startAudit": "Lancer l'audit",
+    "viewReport": "Voir le rapport",
+    "download": "Télécharger",
+    "retry": "Réessayer",
+    "confirm": "Confirmer",
+    "viewAll": "Tout voir",
+    "goDashboard": "Aller au Dashboard",
+    "browseFiles": "Parcourir les fichiers",
+    "upload": "Télécharger",
+    "restore": "Restaurer",
+    "viewAvailableTests": "Voir les tests disponibles",
+    "viewScanDetails": "Voir le détail technique",
+    "close": "Fermer"
+  },
+  "modals": {
+    "archiveTitle": "Archiver l'audit",
+    "archiveDesc": "Voulez-vous vraiment archiver cet audit ? Il sera déplacé vers les archives et pourra être restauré plus tard.",
+    "archiveConfirm": "Archiver",
+    "restoreTitle": "Restaurer l'audit",
+    "restoreDesc": "Voulez-vous vraiment restaurer cet audit dans votre liste principale ?",
+    "restoreConfirm": "Restaurer",
+    "deleteTitle": "Supprimer définitivement",
+    "deleteDesc": "Cette action est irréversible. L'audit, tous ses résultats et les rapports générés seront définitivement supprimés.",
+    "deleteConfirm": "Supprimer",
+    "logoutTitle": "Déconnexion",
+    "logoutDesc": "Voulez-vous vraiment vous déconnecter de votre compte ?",
+    "logoutConfirm": "Se déconnecter",
+    "deleteKeyTitle": "Supprimer la clé API",
+    "deleteKeyDesc": "Voulez-vous vraiment supprimer votre clé API ?"
+  },
+  "labels": {
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer",
+    "contactTitle": "Contactez-nous",
+    "contactDesc": "Une question ? Un besoin spécifique ? Notre équipe est là pour vous aider.",
+    "contactSuccess": "Votre application de messagerie va s'ouvrir...",
+    "contactPlaceholder": "Dites-nous en plus sur votre demande...",
+    "subjectPlaceholder": "Demande d'audit, partenariat, rapport de bug...",
+    "mailName": "Nom",
+    "mailEmail": "Email",
+    "mailMessage": "Message",
+    "contactAction": "Ouvrir ma messagerie",
+    "email": "Email",
+    "password": "Mot de passe",
+    "name": "Nom complet",
+    "language": "Langue",
+    "theme": "Thème",
+    "dark": "Sombre",
+    "light": "Clair",
+    "created": "Créé",
+    "total": "Total",
+    "avgScore": "Score Moyen",
+    "welcomeBack": "Bon retour",
+    "description": "Description"
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contactez-nous",
+    "version": "Version"
+  },
+  "changelog": {
+    "title": "Journal de modifications",
+    "v000": {
+      "title": "Lancement Initial (v0.0.0)",
+      "items": [
+        "Lancement officiel de la plateforme Detekta",
+        "Interface moderne et responsive",
+        "Système d'authentification sécurisé",
+        "Tableau de bord de suivi des audits"
+      ]
+    },
+    "v001": {
+      "title": "Conformité OWASP (v0.0.1)",
+      "items": [
+        "Implémentation complète des 10 catégories OWASP Top 10 (2025)",
+        "Nouveau moteur de scan par profondeur (Quick, Standard, Deep)",
+        "Analyse IA avancée avec Claude 3.5 Sonnet",
+        "Détection proactive des vulnérabilités critiques"
+      ]
+    },
+    "v002": {
+      "title": "MobSF & Personnalisation (v0.0.2)",
+      "items": [
+        "Scan mobile professionnel via l'intégration MobSF (APK/IPA)",
+        "Noms d'audits personnalisés pour une meilleure organisation",
+        "Animation interactive du score et modal pédagogique",
+        "Génération de rapports PDF/HTML synchronisée avec le thème",
+        "Correction de bugs (doublons WebSocket, rendu PDF)"
+      ]
+    }
+  },
+  "status": {
+    "pending": "En attente",
+    "running": "En cours",
+    "completed": "Terminé",
+    "failed": "Échoué"
+  },
+  "errors": {
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse email invalide",
+    "minLength": "Doit contenir au moins {{min}} caractères",
+    "somethingWrong": "Une erreur s'est produite. Veuillez réessayer.",
+    "serverError": "Erreur serveur. Veuillez réessayer.",
+    "unauthorized": "Veuillez vous connecter pour continuer",
+    "notFound": "Ressource non trouvée"
+  },
+  "success": {
+    "saved": "Modifications enregistrées",
+    "deleted": "Supprimé avec succès"
+  }
+}

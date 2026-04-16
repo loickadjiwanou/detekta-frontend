@@ -1,0 +1,137 @@
+{
+  "types": {
+    "web": "Web Application",
+    "mobile": "Mobile App",
+    "backend": "Backend/Code",
+    "api": "API REST"
+  },
+  "typeDescriptions": {
+    "web": "Scan web applications for vulnerabilities like XSS, SQL injection, and more.",
+    "mobile": "Analyze APK/IPA files for security issues in mobile apps.",
+    "backend": "Review code repositories for security flaws and bad practices.",
+    "api": "Test REST APIs for authentication, authorization, and injection flaws."
+  },
+  "steps": {
+    "type": "Audit Type",
+    "target": "Target & Config",
+    "apiKey": "API Key Setup"
+  },
+  "target": {
+    "url": "Target URL",
+    "urlPlaceholder": "https://example.com",
+    "apiEndpoint": "API Endpoint",
+    "apiPlaceholder": "https://api.example.com/v1",
+    "gitRepo": "Git Repository",
+    "gitPlaceholder": "https://github.com/user/repo",
+    "uploadFile": "Upload File",
+    "dragDrop": "Drag and drop your APK/IPA file here",
+    "or": "or",
+    "browse": "Browse files",
+    "dropFile": "Drop your file here",
+    "maxSize": "Supported formats: APK, IPA, AAB • Max size: 200MB",
+    "uploaded": "File uploaded successfully!"
+  },
+  "config": {
+    "title": "Configuration",
+    "depth": "Scan Depth",
+    "quick": "Quick",
+    "standard": "Standard",
+    "deep": "Deep",
+    "quickDesc": "Fast scan, basic checks",
+    "standardDesc": "Balanced scan, recommended",
+    "deepDesc": "Thorough scan, takes longer",
+    "aiAnalysis": "AI Analysis",
+    "aiAnalysisDesc": "Use Claude AI for intelligent analysis and recommendations",
+    "reportLanguage": "Report Language"
+  },
+  "apiKeySetup": {
+    "title": "Claude API Key Configuration",
+    "aiDisabledTitle": "AI Analysis Disabled",
+    "aiDisabledDesc": "No AI will be used during the analysis since you disabled this option in the previous step.",
+    "ownKey": "My API Key",
+    "ownKeyDesc": "Use your own Anthropic API key. Billed through your Anthropic account.",
+    "platformKey": "Platform Key",
+    "platformKeyDesc": "Use Detekta's API key. Included in your plan with usage fees.",
+    "enterKey": "Enter your API key",
+    "keyPlaceholder": "sk-ant-...",
+    "getKey": "Get your key at console.anthropic.com",
+    "validateSave": "Validate & Save",
+    "currentKey": "Current key",
+    "usingOwn": "Using your own API key",
+    "usingPlatform": "Using platform key",
+    "noAiUsed": "No AI used"
+  },
+  "progress": {
+    "title": "Audit in Progress",
+    "scanning": "Scanning...",
+    "analyzing": "Analyzing...",
+    "generating": "Generating report..."
+  },
+  "list": {
+    "title": "My Audits",
+    "empty": "No audits yet",
+    "emptyDesc": "Start your first security audit to see results here."
+  },
+  "new": {
+    "title": "New Audit",
+    "subtitle": "Configure and launch a security audit",
+    "auditName": "Audit Name",
+    "auditNamePlaceholder": "e.g., Production API Scan"
+  },
+  "delete": {
+    "confirm": "Are you sure you want to delete this audit?",
+    "success": "Audit deleted"
+  },
+  "dashboard": {
+    "welcomeHelp": "Here's an overview of your security audits.",
+    "recentAudits": "Recent Audits"
+  },
+  "archives": {
+    "title": "Archives",
+    "count": "{{count}} archived audit",
+    "count_plural": "{{count}} archived audits",
+    "warning": "Archived audits are no longer editable but remain accessible.",
+    "empty": "No Archived Audits",
+    "emptyDesc": "Your archived audits will appear here for historical reference."
+  },
+  "toasts": {
+    "loadFailed": "Failed to load audits",
+    "restoreSuccess": "Audit restored successfully",
+    "restoreFailed": "Failed to restore audit",
+    "deleteSuccess": "Audit deleted permanently",
+    "deleteFailed": "Failed to delete audit",
+    "startSuccess": "Audit started!",
+    "startFailed": "Failed to start audit",
+    "uploadSuccess": "File uploaded successfully",
+    "uploadFailed": "Failed to upload file",
+    "archiveSuccess": "Audit archived successfully",
+    "archiveFailed": "Failed to archive audit"
+  },
+  "validation": {
+    "selectType": "Please select an audit type",
+    "enterTarget": "Please enter a target",
+    "invalidFileType": "Invalid file type. Allowed: {{exts}}",
+    "fileTooLarge": "File too large. Maximum size is 200MB."
+  },
+  "modals": {
+    "availableTestsTitle": "Certified Security Tests",
+    "availableTestsDesc": "List of security checks that will be performed during this audit.",
+    "liveTestsTitle": "Real-Time Scan Details",
+    "liveTestsDesc": "Monitoring exact checks and security tests performed on the target.",
+    "waitingTests": "Waiting for tests to start...",
+    "depthNote": "Some advanced tests (like port scanning) are only available in Standard or Deep modes.",
+    "seeAvailableTests": "See available tests"
+  },
+  "owasp": {
+    "A01": { "name": "A01:2025 - Broken Access Control", "desc": "Checks for directory listing and exposures of sensitive files (.git, .env)." },
+    "A02": { "name": "A02:2025 - Security Misconfiguration", "desc": "Analyzes security headers, server disclosures, and risky open ports." },
+    "A03": { "name": "A03:2025 - Software Supply Chain Failures", "desc": "Scans for outdated or vulnerable third-party frontend libraries." },
+    "A04": { "name": "A04:2025 - Cryptographic Failures", "desc": "Tests SSL/TLS configuration, certificate validity, and HTTPS usage." },
+    "A05": { "name": "A05:2025 - Injection", "desc": "Tests for SQL Injection and Reflected Cross-Site Scripting (XSS)." },
+    "A06": { "name": "A06:2025 - Insecure Design", "desc": "Evaluates design flaws, including CORS policies and redirect patterns." },
+    "A07": { "name": "A07:2025 - Authentication Failures", "desc": "Identifies weak authentication mechanisms and missing rate limiting." },
+    "A08": { "name": "A08:2025 - Software or Data Integrity Failures", "desc": "Verifies Subresource Integrity (SRI) for external scripts." },
+    "A09": { "name": "A09:2025 - Security Logging and Alerting Failures", "desc": "Checks for publicly accessible log files and diagnostic endpoints." },
+    "A10": { "name": "A10:2025 - Mishandling of Exceptional Conditions", "desc": "Detects verbose error messages and debug information leaks." }
+  }
+}

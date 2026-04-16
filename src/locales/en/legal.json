@@ -1,0 +1,77 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 10, 2026",
+    "intro": "At Detekta, we take the protection of your personal data very seriously. This privacy policy explains how we collect, use, and protect your information when you use our security audit platform.",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect information necessary for providing our services:",
+        "items": [
+          "Account Information: Name, email address, and language preferences.",
+          "Audit Data: Target URLs, API endpoints, and application files (APK, IPA).",
+          "Technical Information: IP addresses (for scan security), browser types, and system logs."
+        ]
+      },
+      {
+        "title": "2. Data Usage",
+        "content": "Your data is used exclusively to:",
+        "items": [
+          "Perform the requested security audits.",
+          "Generate analysis reports via our AI models (Claude AI).",
+          "Improve the relevance of our detection algorithms.",
+          "Provide technical support and ensure your account's security."
+        ]
+      },
+      {
+        "title": "3. AI Processing",
+        "content": "Detekta uses the Anthropic API (Claude AI) to analyze scan results. Your data is processed ephemerally by the AI and is not used for training third-party models, in accordance with our confidentiality agreements with our providers."
+      },
+      {
+        "title": "4. Security and Retention",
+        "content": "We apply rigorous security measures:",
+        "items": [
+          "AES-256 encryption for data at rest.",
+          "Automatic deletion of source files (APK/IPA) after audit completion.",
+          "Ability for the user to permanently delete audits and reports at any time."
+        ]
+      },
+      {
+        "title": "5. Your Rights",
+        "content": "In accordance with GDPR and data protection laws, you have the right to access, rectify, delete, and port your personal data. To exercise these rights, contact us via our support form."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 10, 2026",
+    "intro": "The use of Detekta implies full and complete acceptance of these Terms of Service (TOS).",
+    "sections": [
+      {
+        "title": "1. Service Description",
+        "content": "Detekta provides automated vulnerability analysis tools for web and mobile applications and APIs. The service includes security scans and AI-generated recommendations."
+      },
+      {
+        "title": "2. User Responsibility",
+        "content": "By using Detekta, you warrant that:",
+        "items": [
+          "You have explicit authorization from the owner to audit the submitted target.",
+          "You will not use the service for malicious or illegal purposes.",
+          "You will not attempt to saturate or compromise Detekta's infrastructure."
+        ]
+      },
+      {
+        "title": "3. Warranty Limitations",
+        "content": "While we use state-of-the-art technologies (OWASP Top 10, Claude AI), Detekta is a security aid tool. We do not guarantee the total absence of vulnerabilities. Detekta cannot be held liable for damages resulting from a cyberattack on a previously audited application."
+      },
+      {
+        "title": "4. Intellectual Property",
+        "content": "All content on the Detekta platform (software, design, algorithms) is the exclusive property of Detekta. Generated reports belong to the user, subject to compliance with their subscription."
+      },
+      {
+        "title": "5. Modification of Terms",
+        "content": "Detekta reserves the right to modify these terms at any time. Users will be informed of significant changes via their dashboard."
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Rapport de sécurité",
+  "score": "Score de sécurité",
+  "riskLevel": "Niveau de risque",
+  "severity": {
+    "critical": "Critique",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible",
+    "info": "Info",
+    "secure": "Sécurisé"
+  },
+  "sections": {
+    "summary": "Résumé exécutif",
+    "technical": "Résumé technique",
+    "findings": "Vulnérabilités",
+    "aiAnalysis": "Analyse IA",
+    "recommendations": "Recommandations",
+    "actionPlan": "Plan d'action"
+  },
+  "finding": {
+    "category": "Catégorie",
+    "affected": "Composant affecté",
+    "evidence": "Preuve",
+    "cvss": "Score CVSS",
+    "cve": "IDs CVE",
+    "recommendation": "Recommandation",
+    "codeFix": "Correction de code",
+    "references": "Références"
+  },
+  "actionPlan": {
+    "priority": "Actions prioritaires",
+    "quickWins": "Gains rapides",
+    "longTerm": "Recommandations long terme"
+  },
+  "download": {
+    "pdf": "Télécharger PDF",
+    "html": "Télécharger HTML"
+  },
+  "metadata": {
+    "target": "Cible",
+    "type": "Type d'audit",
+    "duration": "Durée",
+    "tools": "Outils utilisés",
+    "generated": "Généré le",
+    "apiMode": "Mode IA"
+  },
+  "noFindings": "Aucune vulnérabilité trouvée",
+  "noFindingsDesc": "Bravo ! Aucun problème de sécurité détecté.",
+  "scoring": {
+    "modalTitle": "Comprendre votre score",
+    "intro": "Le score est calculé selon un modèle de déduction plafonné. Chaque vulnérabilité retire des points, mais l'impact de chaque catégorie est limité pour éviter qu'une accumulation de petits problèmes ne masque l'état réel de sécurité.",
+    "table": {
+      "severity": "Sévérité",
+      "penalty": "Points retirés",
+      "cap": "Plafond max"
+    },
+    "formula": "Score = 100 - (Somme des pénalités plafonnées)",
+    "note": "Note : Une seule faille Critique peut faire chuter le score de manière significative, car elle représente un risque immédiat d'intrusion."
+  }
+}

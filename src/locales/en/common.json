@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "overview": "Overview",
+    "newAudit": "New Audit",
+    "myAudits": "My Audits",
+    "archives": "Archives",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "startAudit": "Start Audit",
+    "viewReport": "View Report",
+    "download": "Download",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "viewAll": "View All",
+    "goDashboard": "Go to Dashboard",
+    "browseFiles": "Browse Files",
+    "upload": "Upload",
+    "restore": "Restore",
+    "viewAvailableTests": "View available tests",
+    "viewScanDetails": "View Live Tests",
+    "close": "Close"
+  },
+  "modals": {
+    "archiveTitle": "Archive Audit",
+    "archiveDesc": "Are you sure you want to archive this audit? It will be moved to the archives and can be restored later.",
+    "archiveConfirm": "Archive",
+    "restoreTitle": "Restore Audit",
+    "restoreDesc": "Are you sure you want to restore this audit to your main list?",
+    "restoreConfirm": "Restore",
+    "deleteTitle": "Delete Permanently",
+    "deleteDesc": "This action cannot be undone. The audit, all its findings, and generated reports will be permanently deleted.",
+    "deleteConfirm": "Delete Permanently",
+    "logoutTitle": "Logout",
+    "logoutDesc": "Are you sure you want to logout of your account?",
+    "logoutConfirm": "Logout",
+    "deleteKeyTitle": "Delete API Key",
+    "deleteKeyDesc": "Are you sure you want to delete your API key?"
+  },
+  "labels": {
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Have a question? A specific need? Our team is here to help.",
+    "contactSuccess": "Your email application will open...",
+    "contactPlaceholder": "Tell us more about your request...",
+    "subjectPlaceholder": "Audit inquiry, partnership, bug report...",
+    "mailName": "Name",
+    "mailEmail": "Email",
+    "mailMessage": "Message",
+    "contactAction": "Open my mail app",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "created": "Created",
+    "total": "Total",
+    "avgScore": "Avg Score",
+    "welcomeBack": "Welcome back",
+    "description": "Description"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "version": "Version"
+  },
+  "changelog": {
+    "title": "Changelog",
+    "v000": {
+      "title": "Initial Launch (v0.0.0)",
+      "items": [
+        "Official launch of Detekta platform",
+        "Modern and responsive interface",
+        "Secure authentication system",
+        "Audit tracking dashboard"
+      ]
+    },
+    "v001": {
+      "title": "OWASP Compliance (v0.0.1)",
+      "items": [
+        "Full implementation of OWASP Top 10 (2025) categories",
+        "New scan engine with depth options (Quick, Standard, Deep)",
+        "Advanced AI analysis with Claude 3.5 Sonnet",
+        "Proactive discovery of critical vulnerabilities"
+      ]
+    },
+    "v002": {
+      "title": "MobSF & Personalization (v0.0.2)",
+      "items": [
+        "Professional mobile scanning with MobSF integration (APK/IPA)",
+        "Custom audit names for better workspace organization",
+        "Score interactive animation and pedagogic modal",
+        "Theme-aware PDF/HTML report generation",
+        "Bug fixes for WebSocket duplicate logs and PDF rendering"
+      ]
+    }
+  },
+  "status": {
+    "pending": "Pending",
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "minLength": "Must be at least {{min}} characters",
+    "somethingWrong": "Something went wrong. Please try again.",
+    "serverError": "Server error. Please try again.",
+    "unauthorized": "Please login to continue",
+    "notFound": "Resource not found"
+  },
+  "success": {
+    "saved": "Changes saved successfully",
+    "deleted": "Deleted successfully"
+  }
+}
